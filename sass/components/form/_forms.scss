@@ -98,6 +98,8 @@
   align-items: center;
   margin-bottom: 30px;
   color: $primary-text-color;
+  
+  
 }
 .client-form__icon-checkbox {
   display: inline-block;
@@ -118,6 +120,7 @@
 .client-form__link-policy {
   margin-left: 5px;
   color: $accent-color;
+  text-decoration: underline;
 }
 .btn-close {
   position: absolute;

@@ -819,6 +819,7 @@ img {
 .client-form__link-policy {
   margin-left: 5px;
   color: #2196F3;
+  text-decoration: underline;
 }
 
 .btn-close {
