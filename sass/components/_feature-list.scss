@@ -30,7 +30,11 @@
 }
 
 
-.feature-list__item--attention::before {
+
+.feature-list__item--attention {
+    
+    &::before {
+    
     display: inline-flex;
     content: '';
     background-repeat: no-repeat;
@@ -42,10 +46,14 @@
 
     background-color: $button-filters-bg;
     background-image: url('../images/antenna.svg');
+    }
 
 }
 
-.feature-list__item--punctuality::before {
+.feature-list__item--punctuality {
+
+    &::before {
+
     display: inline-flex;
     content: '';
     background-repeat: no-repeat;
@@ -57,10 +65,15 @@
 
     background-color: $button-filters-bg;
     background-image: url('../images/clock.svg');
+    }
 
 }
 
-.feature-list__item--planning::before {
+.feature-list__item--planning {
+
+    &::before {
+
+
     display: inline-flex;
     content: '';
     background-repeat: no-repeat;
@@ -72,10 +85,15 @@
 
     background-color: $button-filters-bg;
     background-image: url('../images/diagram.svg');
+    }
 
 }
 
-.feature-list__item--technologies::before {
+.feature-list__item--technologies {
+
+    &::before {
+    
+
     display: inline-flex;
     content: '';
     background-repeat: no-repeat;
@@ -87,5 +105,6 @@
 
     background-color: $button-filters-bg;
     background-image: url('../images/astronaut.svg');
+    }
 
 }

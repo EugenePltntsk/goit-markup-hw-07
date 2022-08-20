@@ -110,13 +110,19 @@
   border: 2px solid $title-text-color;
   border-radius: 2px;
 }
-.client-form__input-policy:checked + .client-form__icon-checkbox {
+
+.client-form__input-policy {
+
+  &:checked + .client-form__icon-checkbox {
   background-image: url(../images/icon-checkbox.svg);
   background-size: contain;
   background-color: $accent-color;
   background-origin: border-box;
   border-color: transparent;
 }
+}
+
+
 .client-form__link-policy {
   margin-left: 5px;
   color: $accent-color;

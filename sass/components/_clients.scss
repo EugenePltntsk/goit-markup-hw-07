@@ -21,14 +21,21 @@
   fill: currentColor;
 }
 
-.clients__item:hover .clients__link {
+
+
+.clients__item {
+  &:hover .clients__link {
   border-color: $accent-color;
   color: $accent-color;
+  }
 }
 
-.clients__link:focus {
+
+.clients__link {
+  &:focus {
   outline-color: $accent-color;
   color: $accent-color;
+  }
 }
 
 .clients__item + .clients__item {
